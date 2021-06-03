@@ -1,6 +1,6 @@
 class Spacecraft
-  # attr_reader   :name, 
-  #               :fuel
+  attr_reader   :name, 
+                :fuel
 
   def initialize(data)
     @name = data[:name]
