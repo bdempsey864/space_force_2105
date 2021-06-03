@@ -6,4 +6,6 @@ class Spacecraft
     @name = data[:name]
     @fuel = data[:fuel]
   end
+
+  
 end
